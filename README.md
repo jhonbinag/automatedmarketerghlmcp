@@ -2,6 +2,8 @@
 
 A Node.js server designed for Vercel deployment that provides a directory endpoint for the GoHighLevel MCP (Model Context Protocol) server. This server facilitates integration with n8n and other automation platforms, focusing on blog, conversation, and calendar functionalities.
 
+*Last updated: $(Get-Date)*
+
 ## Features
 
 - 🔐 **Secure Authentication** - Private Integration Token (PIT) validation
@@ -355,5 +357,6 @@ For issues and questions:
 
 ## License
 
-MIT License - see LICENSE file for details.#   a m g h l m c p  
+MIT License - see LICENSE file for details.#   a m g h l m c p 
+ 
  
