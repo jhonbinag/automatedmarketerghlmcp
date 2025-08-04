@@ -2,7 +2,7 @@
 
 A Node.js server designed for Vercel deployment that provides a directory endpoint for the GoHighLevel MCP (Model Context Protocol) server. This server facilitates integration with n8n and other automation platforms, focusing on blog, conversation, and calendar functionalities.
 
-*Last updated: $(Get-Date)*
+> **Last Updated:** December 2024
 
 ## Features
 
