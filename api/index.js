@@ -18,11 +18,13 @@ app.use(express.urlencoded({ extended: true }));
 const mcpRoutes = require('./routes/mcp');
 const authRoutes = require('./routes/auth');
 const healthRoutes = require('./routes/health');
+const directoryRoutes = require('./routes/directory');
 
 // Use routes
 app.use('/api/mcp', mcpRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/health', healthRoutes);
+app.use('/api/directory', directoryRoutes);
 
 // Root endpoint
 app.get('/', (req, res) => {
@@ -33,7 +35,8 @@ app.get('/', (req, res) => {
     endpoints: {
       mcp: '/api/mcp',
       auth: '/api/auth',
-      health: '/api/health'
+      health: '/api/health',
+      directory: '/api/directory'
     },
     documentation: 'https://marketplace.gohighlevel.com/docs/other/mcp'
   });
