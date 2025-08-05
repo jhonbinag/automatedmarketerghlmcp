@@ -5,7 +5,7 @@
   "main": "api/index.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'Build complete'",
+    "build": "echo 'No build required for serverless functions'",
     "start": "node api/index.js"
   },
   "dependencies": {
