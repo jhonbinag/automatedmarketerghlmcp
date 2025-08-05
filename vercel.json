@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "amghlmcp",
+
   "functions": {
     "api/index.js": {
       "maxDuration": 30
